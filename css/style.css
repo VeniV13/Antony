@@ -14,6 +14,28 @@ body {
 .container {
   max-width: 1440px;
 }
+.simple-linear__papper {
+  width: 100%;
+  height: auto;
+  margin-top: -150px;
+  overflow: hidden;
+}
+
+.simple-linear__papper__down {
+  margin-top: 10px;
+  margin-bottom: -150px;
+  overflow: hidden;
+}
+
+.simple-linear__papper__down img {
+  transform: scaleY(-1);
+}
+
+.simple-linear__papper img {
+  width: 100%;
+  height: auto;
+}
+
 .simple-linear {
   display: flex;
   justify-content: center;
@@ -61,7 +83,7 @@ body {
 .scroll {
   color: white;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 /* факультет  */
@@ -213,7 +235,7 @@ body {
   }
   .scroll {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 
   .faculty-choice__text {
@@ -247,7 +269,7 @@ body {
   }
   .scroll {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
 
   .faculty-choice__text {
@@ -279,6 +301,13 @@ body {
   .cloth-warning {
     font-size: 25px;
   }
+  .simple-linear__papper {
+    margin-top: -70px;
+  }
+
+  .simple-linear__papper__down {
+  margin-bottom: -70px;
+}
 }
 
 @media screen and (max-width: 720px) {
@@ -349,4 +378,11 @@ body {
     font-size: 22px;
     line-height: 1.5;
   }
+
+  .simple-linear__papper {
+    margin-top: -50px;
+  }
+  .simple-linear__papper__down {
+  margin-bottom: -50px;
+}
 }
