@@ -165,11 +165,11 @@ body {
   }
 
   .faculty-choice__text {
-    font-size: 50px;
+    font-size: 25px;
   }
 
   .faculty-choice img {
-    width: 150px;
+    width: 300px;
     height: 100%;
   }
 
@@ -190,6 +190,11 @@ body {
     gap: 10px;
   }
 
+    .faculty-choice img {
+    width: 150px;
+    height: 100%;
+  }
+
   .faculty-description-card__item__facultyabout p {
     font-size: 25px;
   }
@@ -199,10 +204,12 @@ body {
 }
 
 @media screen and (max-width: 580px) {
+  
   .faculty-description-card__item__facultyabout p {
     font-size: 20px;
   }
   .faculty-description-card__item__facultyname {
     font-size: 25px;
+    padding: 0;
   }
 }
