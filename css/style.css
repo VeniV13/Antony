@@ -18,13 +18,13 @@ body {
 .simple-linear__papper {
   width: 100%;
   height: auto;
-  margin-top: -150px;
+  margin-top: -185px;
   overflow: hidden;
 }
 
 .simple-linear__papper__down {
   margin-top: 10px;
-  margin-bottom: -150px;
+  margin-bottom: -180px;
   overflow: hidden;
 }
 
