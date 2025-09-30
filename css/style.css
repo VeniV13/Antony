@@ -9,7 +9,6 @@
 
 body {
   font-family: "HarryPotter", serif;
-  overflow: hidden;
 }
 
 .container {
@@ -307,8 +306,8 @@ body {
   }
 
   .simple-linear__papper__down {
-  margin-bottom: -70px;
-}
+    margin-bottom: -70px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -384,6 +383,6 @@ body {
     margin-top: -50px;
   }
   .simple-linear__papper__down {
-  margin-bottom: -50px;
-}
+    margin-bottom: -50px;
+  }
 }
