@@ -11,6 +11,10 @@ body {
   font-family: "HarryPotter", serif;
 }
 
+.container {
+  max-width: 1440px;
+}
+
 .shadow-text {
   text-shadow: 1px -1px 0 #000, 10px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -32,25 +36,29 @@ body {
 }
 
 .header-info__h1 {
-  font-size: 15vw;
+  font-size: 200px;
   color: white;
-  margin-top: 10vw;
+  margin-top: 10px;
+  margin: 20px;
 }
 
 .header-info__about p {
-  font-size: 5vw;
+  font-size: 100px;
   color: white;
-  margin-top: 5vw;
+  margin-top: 5px;
+  margin: 20px;
 }
 
 .scroll {
   color: white;
-  font-size: 2vw;
-  margin-bottom: 1vw;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* факультет  */
 .faculty {
+  display: flex;
+  justify-content: center;
 }
 
 .faculty-choice {
@@ -62,7 +70,7 @@ body {
 }
 
 .faculty-choice img {
-  width: 30vw;
+  width: 300px;
   height: 100%;
 }
 
@@ -79,7 +87,7 @@ body {
 
 .faculty-description-card {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 0 20px;
 }
@@ -109,9 +117,64 @@ body {
   font-size: 2vw;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1140px) {
+  .header-info__h1 {
+    font-size: 150px;
+  }
+  .header-info__about p {
+    font-size: 75px;
+    margin-top: 10px;
+  }
+  .scroll {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .faculty-choice__text {
+    font-size: 5vw;
+  }
+
+  .faculty-choice img {
+  width: 200px;
+  height: 100%;
+}
+
   .faculty-description-card {
     grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+  }
+  .faculty-description-card__item__facultyabout p {
+    font-size: 3vw;
+  }
+  .faculty-description-card__item__facultyname {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header-info__h1 {
+    font-size: 100px;
+  }
+  .header-info__about p {
+    font-size: 60px;
+    margin-top: 30px;
+  }
+  .scroll {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .faculty-choice__text {
+    font-size: 6vw;
+  }
+
+  .faculty-choice img {
+  width: 150px;
+  height: 100%;
+}
+
+  .faculty-description-card {
+    grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+    gap: 20px;
   }
   .faculty-description-card__item__facultyabout p {
     font-size: 3vw;
