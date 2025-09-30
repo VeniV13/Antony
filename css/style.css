@@ -130,12 +130,6 @@ body {
 /* Наряд */
 
 .cloth {
-  /* background-image: url(../images/magic-cloth.png);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right; */
 }
 
 .cloth-container {
@@ -173,12 +167,42 @@ body {
   margin: 40px;
 }
 
+.map {
+  background-image: url(../images/map.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-info {
+  background-image: url(../images/bumaga-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  height: 400px;
+}
+
+.map-info__adress {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 1140px) {
   .simple-linear img {
     width: 800px;
-    height: 40px;
+    height: 30px;
   }
   .header-info__h1 {
     font-size: 150px;
@@ -202,7 +226,7 @@ body {
   }
 
   .faculty-description-card {
-    grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+    grid-template-columns: repeat(2, 1fr);
   }
   .faculty-description-card__item__facultyabout p {
     font-size: 35px;
@@ -236,7 +260,7 @@ body {
   }
 
   .faculty-description-card {
-    grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   .faculty-description-card__item__facultyabout p {
@@ -284,6 +308,16 @@ body {
   .cloth-warning {
     font-size: 20px;
   }
+
+  .map-info {
+    width: 600px;
+    height: 300px;
+  }
+
+  .map-info__adress {
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -295,7 +329,7 @@ body {
     padding: 0;
   }
 
-    .cloth-title {
+  .cloth-title {
     font-size: 25px;
   }
   .cloth-about__item p {
@@ -304,5 +338,15 @@ body {
 
   .cloth-warning {
     font-size: 25px;
+  }
+
+  .map-info {
+    width: 350px;
+    height: 200px;
+  }
+
+  .map-info__adress {
+    font-size: 22px;
+    line-height: 1.5;
   }
 }
