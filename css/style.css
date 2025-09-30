@@ -111,4 +111,10 @@ body {
   .faculty-description-card {
     grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
   }
+  .faculty-description-card__item__facultyabout p {
+    font-size: 3vw;
+  }
+  .faculty-description-card__item__facultyname {
+    font-size: 4vw;
+  }
 }
