@@ -16,7 +16,7 @@ body {
 
 
 .header-info {
-  background-image: url(/images/bg.jpg);
+  background-image: url(images/bg.jpg);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
