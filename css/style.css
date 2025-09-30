@@ -2,7 +2,7 @@
   font-family: "HarryPotter";
   font-style: normal;
   font-weight: 400;
-  src: local("HarryPotter"), url("/fonts/HarryPotter.ttf") format("truetype");
+  src: local("HarryPotter"), url("../fonts/HarryPotter.ttf") format("truetype");
 }
 
 body {
