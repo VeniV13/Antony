@@ -49,6 +49,12 @@ body {
   text-shadow: 1px -1px 0 #000, 10px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.hogwarst-logo {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: -155px;
+}
+
 .header-info {
   background-image: url(../images/bg.jpg);
   width: 100%;
@@ -149,11 +155,9 @@ body {
 }
 
 /* Наряд */
-
 .cloth {
-}
-
-.cloth-container {
+  display: flex;
+  justify-content: center;
 }
 
 .cloth-title {
@@ -172,13 +176,17 @@ body {
 }
 
 .cloth-about__item img {
-  width: 200px;
-  height: 200px;
+  width: 4200px; 
+  height: 100%;
 }
 
-.cloth-about__item p {
+.cloth-about-text {
   font-size: 40px;
 }
+
+/* .cloth-about__item p {
+  font-size: 40px;
+} */
 
 .cloth-warning {
   display: flex;
@@ -187,6 +195,31 @@ body {
   font-size: 40px;
   margin: 40px;
 }
+
+/* Дементор */
+.dementor {
+  display: flex;
+  justify-content: center;
+  margin: 80px
+}
+.dementor-text {
+  font-size: 40px;
+  max-width: 800px;
+  padding: 50px;
+}
+.dementor-image {
+  max-width: 400px;
+  height: 100%;
+}
+
+/* Гринготс */
+.money {
+  display: flex;
+
+  margin: 20px 0;
+}
+
+/* Карта */
 
 .map {
   background-image: url(../images/map.jpg);
