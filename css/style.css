@@ -124,7 +124,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  margin: 0 20px;
+  margin: 0 5px;
 }
 
 .faculty-description-card__item {
@@ -406,6 +406,12 @@ body {
   .faculty-description-card__item__facultyname {
     font-size: 25px;
     padding: 0;
+    flex-direction: column;
+  }
+
+  .faculty-description-card__item__facultyname img {
+    width: 100px;
+    height: 100%;
   }
 
   .cloth-title {
@@ -422,12 +428,32 @@ body {
     font-size: 20px;
   }
   .cloth-about-text {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 25px;
   }
 
   .cloth-warning {
     font-size: 25px;
+  }
+
+  .dementor-text {
+    font-size: 25px;
+    margin: 25px;
+    padding: 0;
+  }
+
+  .dementor {
+    margin: 0 5px;
+    flex-direction: column-reverse;
+  }
+
+  .dementor-image {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .money-image {
+    flex-direction: column;
   }
 
   .adress {
