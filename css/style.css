@@ -52,7 +52,7 @@ body {
 .hogwarst-logo {
   margin: 0 auto;
   width: 200px;
-  margin-top: -155px;
+  /* margin-top: -155px; */
 }
 
 .header-info {
@@ -176,11 +176,12 @@ body {
 }
 
 .cloth-about__item img {
-  width: 4200px; 
+  width: 4200px;
   height: 100%;
 }
 
 .cloth-about-text {
+  padding: 40px 0;
   font-size: 40px;
 }
 
@@ -200,7 +201,7 @@ body {
 .dementor {
   display: flex;
   justify-content: center;
-  margin: 80px
+  margin: 80px;
 }
 .dementor-text {
   font-size: 40px;
