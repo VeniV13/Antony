@@ -452,6 +452,10 @@ body {
     margin: 0 auto;
   }
 
+  .money {
+    flex-direction: column; 
+  }
+
   .money-image {
     flex-direction: column;
   }
