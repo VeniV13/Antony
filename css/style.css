@@ -50,9 +50,7 @@ body {
 }
 
 .hogwarst-logo {
-  margin: 0 auto;
-  width: 200px;
-  margin-top: -100px;
+  width: 250px;
 }
 
 .header-info {
@@ -176,13 +174,13 @@ body {
 }
 
 .cloth-about__item img {
-  width: 400px;
+  width: 500px;
   height: 100%;
 }
 
 .cloth-about-text {
-  padding: 40px 0;
   font-size: 40px;
+  max-width: 600px;
 }
 
 /* .cloth-about__item p {
@@ -202,6 +200,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 80px;
+  text-align: center;
 }
 .dementor-text {
   font-size: 40px;
@@ -251,6 +250,22 @@ body {
   font-size: 40px;
   line-height: 1.5;
 }
+
+.adress {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 100px;
+}
+
+.adress-text {
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+}
+
+
 
 /* MEDIA */
 
@@ -421,6 +436,5 @@ body {
 
   .hogwarst-logo {
     width: 200px;
-    margin-top: -10px;
   }
 }
