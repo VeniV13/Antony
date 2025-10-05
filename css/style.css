@@ -265,8 +265,6 @@ body {
   align-items: center;
 }
 
-
-
 /* MEDIA */
 
 @media screen and (max-width: 1140px) {
@@ -356,6 +354,10 @@ body {
   .simple-linear__papper__down {
     margin-bottom: -70px;
   }
+
+  .hogwarst-logo {
+    z-index: +1;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -409,12 +411,34 @@ body {
   .cloth-title {
     font-size: 25px;
   }
+  .cloth-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .cloth-about__item img {
+    width: 200px;
+  }
   .cloth-about__item p {
     font-size: 20px;
+  }
+  .cloth-about-text {
+    font-size: 20px;
+    margin: 0 25px;
   }
 
   .cloth-warning {
     font-size: 25px;
+  }
+
+  .adress {
+    gap: 0;
+    flex-direction: column-reverse;
+    margin: 55px auto;
+    align-items: center;
+  }
+  .adress-text {
+    margin: 20px;
+    font-size: 40px;
   }
 
   .map-info {
@@ -426,7 +450,9 @@ body {
     font-size: 22px;
     line-height: 1.5;
   }
-
+  .simple-linear {
+    margin: 0;
+  }
   .simple-linear__papper {
     margin-top: -50px;
   }
